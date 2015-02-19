@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 import webapp
 import random
 
@@ -13,4 +15,4 @@ class otroServidor(webapp.webApp):
 
 
 if __name__ == "__main__":
-    serv = otroServidor("localhost", 1240)
+    serv = otroServidor("localhost", 1234)
